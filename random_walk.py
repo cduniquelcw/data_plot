@@ -16,6 +16,7 @@ class RandomWalk():
 		distance = choice([0,1,2,3,4])
 		step = direction * distance
 		return step
+		
 	def fill_walk(self):
 		"""计算随机漫步包含的所有点"""
 
