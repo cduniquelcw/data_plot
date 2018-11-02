@@ -15,7 +15,7 @@ while True:
 
 	point_numbers = list(range(rw.num_points))
 	plt.scatter(rw.x_values,rw.y_values,
-		c=point_numbers,edgecolor='none',s=1)
+		c=point_numbers,cmap='prism',edgecolor='none',s=1)
 
 	#突出起点和终点
 	plt.scatter(0,0,c='green',edgecolor='none',s=100)

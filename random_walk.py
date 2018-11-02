@@ -11,7 +11,7 @@ class RandomWalk():
 		self.y_values = [0]
 
 	def get_step(self):
-		""""""
+		"""获取随机漫步方向和值"""
 		direction = choice([1,-1])
 		distance = choice([0,1,2,3,4])
 		step = direction * distance
